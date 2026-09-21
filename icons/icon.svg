@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="hopperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Squircle / Shield -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#hopperGrad)" filter="url(#dropShadow)" />
+
+  <!-- Frog Head Contour -->
+  <!-- Left Eye Bubble -->
+  <circle cx="42" cy="44" r="18" fill="#34D399" />
+  <circle cx="42" cy="44" r="14" fill="#FFFFFF" />
+  <circle cx="44" cy="42" r="7" fill="#0F172A" />
+  <circle cx="46" cy="40" r="2.5" fill="#FFFFFF" />
+
+  <!-- Right Eye Bubble -->
+  <circle cx="86" cy="44" r="18" fill="#34D399" />
+  <circle cx="86" cy="44" r="14" fill="#FFFFFF" />
+  <circle cx="88" cy="42" r="7" fill="#0F172A" />
+  <circle cx="90" cy="40" r="2.5" fill="#FFFFFF" />
+
+  <!-- Cute Frog Cheeks -->
+  <circle cx="30" cy="74" r="6" fill="#FB7185" opacity="0.8" />
+  <circle cx="98" cy="74" r="6" fill="#FB7185" opacity="0.8" />
+
+  <!-- Floating Standalone Window Glyph in Center -->
+  <g filter="url(#dropShadow)">
+    <!-- Window Body Frame -->
+    <rect x="36" y="58" width="56" height="46" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <!-- Window Header Bar -->
+    <path d="M36 64 C36 60.686 38.686 58 42 58 L86 58 C89.314 58 92 60.686 92 64 L92 68 L36 68 Z" fill="url(#headerGrad)" />
+    <!-- Window Control Dots -->
+    <circle cx="43" cy="63" r="2" fill="#EF4444" />
+    <circle cx="49" cy="63" r="2" fill="#F59E0B" />
+    <circle cx="55" cy="63" r="2" fill="#10B981" />
+    <!-- Floating Arrow / Hop Action in Window -->
+    <path d="M64 74 L64 92 M57 81 L64 74 L71 81" stroke="#10B981" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
