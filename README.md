@@ -21,10 +21,38 @@ Hopper is a **100% self-contained Chrome Extension** with zero external dependen
 
 ---
 
-## 📦 How to Reload the Extension:
+## 📦 How to Install & Reload the Chrome Extension
 
-1. Open `chrome://extensions` in Chrome.
-2. Click the **Reload 🔄** icon on **Hopper**.
-3. Open [Instagram](https://www.instagram.com) (or any active tab).
-4. Click the **Hopper** icon in your top Chrome toolbar!
+Follow these steps to load your custom Chrome extension in Google Chrome:
 
+### 1. Open Chrome Extensions
+- Open Google Chrome.
+- Navigate to `chrome://extensions`.
+- Press **Enter**.
+
+### 2. Enable Developer Mode
+- Find the **Developer mode** toggle in the top-right corner.
+- Turn it **ON**.
+
+### 3. Load Your Custom Extension
+- Click the **Load unpacked** button.
+- Browse to the folder containing your extension's source code (the folder with `manifest.json`).
+- Select the folder and click **Open**.
+
+### 4. Pin the Extension (Optional)
+- Click the **Extensions** puzzle-piece icon in Chrome's toolbar.
+- Find your extension.
+- Click the pin icon to keep it visible in the toolbar.
+
+### 5. Start Using Your Extension
+- Open Instagram or any supported website.
+- Click your extension's icon in the Chrome toolbar to launch it.
+
+### 🔄 How to Reload After Making Changes
+Whenever you modify your extension's source code:
+1. Return to `chrome://extensions`.
+2. Find your custom extension.
+3. Click the **Reload** icon.
+4. Refresh the website tab to apply the changes.
+
+**Note:** Keep the extension folder in the same location. If you move or delete it, Chrome may no longer be able to load the extension.
